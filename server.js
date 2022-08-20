@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 const db = require('./Develop/db/db.json');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 
 app.use(express.static('public'));
 app.use(express.json());
@@ -48,3 +48,6 @@ app.listen(PORT, () =>
 {
   console.log(`Listening at ${PORT}`);
 })
+
+
+//note: fix port and do readme

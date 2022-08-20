@@ -5,5 +5,24 @@
     "express-handlebars": "^6.0.6",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "note-taker",
+  "description": "## Your Task",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariather/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariather/note-taker/issues"
+  },
+  "homepage": "https://github.com/mariather/note-taker#readme"
 }
