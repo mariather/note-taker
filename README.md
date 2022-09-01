@@ -18,16 +18,19 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Mock-up
 
-![](Assets/img/11-express-homework-demo-01.png)
-![](Assets/img/11-express-homework-demo-02.png)
+![](img/img/11-express-homework-demo-01.png)
 
-## Demo
+![](img/img/11-express-homework-demo-02.png)
 
 
 ## Installation-Instructions
 
-node package manager and install dependencies  
+Node package manager and install dependencies  
 ```npm i```
+
+```node server.js```
+
+Navigate to https://localhost:8080 in the browser
 
 ## Usage-Information
 
