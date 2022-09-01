@@ -1,6 +1,6 @@
 # Note Taker
 
-deployment:  
+Deployment: https://mariather.github.io/note-taker/
 
 ## Description
 
