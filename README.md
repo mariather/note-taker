@@ -27,8 +27,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 Node package manager and install dependencies  
 ```npm i```
-
-```node server.js```
+`
 
 Navigate to https://localhost:8080 in the browser
 
