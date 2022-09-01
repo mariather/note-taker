@@ -3,7 +3,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
-const db = require('./Develop/db/db.json');
+const db = require('./db/db.json');
 
 // sets the server up
 const app = express();
@@ -42,14 +42,14 @@ app.delete("/api/notes/:id", (req, res) => {
   })
 
  
-  fs.writeFile("./Develop/db/db.json", JSON.stringify(db), (err) => {
+  fs.writeFile("./db/db.json", JSON.stringify(db), (err) => {
     if(err) throw err;
   })
   res.send(db)
 })
 
-app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/Develop/public/notes.html')));
-app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/Develop/public/index.html')));
+app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/notes.html')));
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/public/index.html')));
 
 
 //listening
